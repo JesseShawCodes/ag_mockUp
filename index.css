@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/*Hero Section 1*/
+
+
+.hero-section {
+    background-image: url("https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/HeadlineImage_1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    color: white;
+    font: open sans bold;
+    text-align: center;
+}
+
+.hero-text > span {
+    display: inline-block;
+}
+
+.red-heading {
+    color: red;
+    /*background-color: white;*/
+    width: 100%;
+}
+
+/*Section 1*/
+
+.section1-list {
+  list-style: none;
+}
+
+section1-list > li:before {
+  content: '✓';
+}

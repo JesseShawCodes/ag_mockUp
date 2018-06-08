@@ -12,7 +12,7 @@ body {
 
 .hero-section {
     background-image: url("https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/HeadlineImage_1.jpg");
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -40,4 +40,35 @@ body {
 
 section1-list > li:before {
   content: '✓';
+}
+
+/*Brown Bar*/
+
+.brown-bar {
+    background-color: brown;
+}
+
+/*Last Section*/
+
+/*Green Section*/
+
+.green-order {
+    background-color: green;
+}
+
+/*Add to Cart*/
+
+.cart-button {
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+    background-color: orange
+}
+
+.product-label {
+    text-align: center;
+}
+
+.product-label a {
+    color: green;
 }

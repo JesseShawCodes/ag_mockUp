@@ -1,10 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
-    height: 100%;
+    background-color: white;
+    color: white;
 }
 
 body {
     width: 80%;
     margin: 0px auto;
+    font-size: 20px;
+}
+
+section {
+    
 }
 
 /*Hero Section 1*/
@@ -14,6 +24,7 @@ body {
     background-image: url("https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/HeadlineImage_1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 .hero-text {
@@ -24,6 +35,7 @@ body {
 
 .hero-text > span {
     display: inline-block;
+    background: linear-gradient(-90deg, white, #d4b8a2, white);
 }
 
 .red-heading {
@@ -32,23 +44,100 @@ body {
     width: 100%;
 }
 
+/**/
+
+.section1-part1 {
+    background-color: white;
+    color: black;
+}
+
+section.list1 {
+    background: linear-gradient(-90deg, white, #d4b8a2, white);
+    text-align: center;
+}
+
+body > div.section1 > section.list1 > ul > li {
+    display: inline-block;
+}
+
+span.list-text {
+    display: -webkit-box;
+    text-align: -webkit-center;
+    color: #4e381f;
+}
+
 /*Section 1*/
+
+.section1-part3 {
+    background-color: white;
+    color: black;
+}
 
 .section1-list {
   list-style: none;
 }
 
-section1-list > li:before {
+body > div.section1 > section:nth-child(3) > ul > li:before {
   content: '✓';
 }
+
+/*parallax*/
+
+.parallax {
+    background-color: green;
+    background-image: url('/images/parallaximages/ParallaxOne_5.jpg')
+}
+
+
 
 /*Brown Bar*/
 
 .brown-bar {
-    background-color: brown;
+    background-color: #3d1c0f;
+    height: 300px;
+    width: 80%;
+}
+
+div.brown-bar > img {
+    float: left;
+    width: 30%;
+}
+
+.brown-bar-text {
+    float: right;
+    width: 60%;
+}
+
+/*switch section*/
+
+.switch-section {
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+/*red section*/
+
+.red-section {
+    background-color: red;
+    background-image: url(images/redsectionimages/Gears_15.jpg);
+}
+
+.red-section-heading {
+    color: yellow;
 }
 
 /*Last Section*/
+
+.last-section {
+    background-color: white;
+    background-image: url('images/lastsectionimages/TransparentArrowBkgd.jpg');
+    color: white;
+}
+
+.last-section-image-1 {
+    width: 100%;
+}
 
 /*Green Section*/
 

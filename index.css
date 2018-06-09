@@ -338,7 +338,7 @@ section.copyright > span {
     }
     
     section.list1 {
-        height: 1450px;
+        height: auto;
     }
 
     div.section1 > section.list1 > ul > li {
@@ -346,11 +346,10 @@ section.copyright > span {
     }
 
     div.section1 > section.list1 > ul > li > img {
-        width: 380px;
+        width: 80%;
     }
-    
     span.list-text {
-        font-size: 50px;
+        font-size: 200px;
     }
     /*Section 1 - Part 3*/
     .section1-part3 {

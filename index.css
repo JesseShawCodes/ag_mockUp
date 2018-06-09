@@ -320,9 +320,6 @@ section.copyright > span {
         overflow: scroll;
     }
     /*Hero Section*/
-    .hero-section {
-        
-    }
 
     .hero-text {
         font-size: 38px;
@@ -331,5 +328,27 @@ section.copyright > span {
     .hero-text > span {
         display: inline-block;
         background: linear-gradient(-90deg, rgba(0,0,0, 0.05),rgba(255, 255, 255, 0.9), white, rgba(0,0,0, 0.01));
+    }
+    /*Section 1 Part 1*/
+    .section1-part1 {
+        font-size: 40px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    section.list1 {
+        height: 1450px;
+    }
+
+    div.section1 > section.list1 > ul > li {
+        display: inherit;
+    }
+
+    div.section1 > section.list1 > ul > li > img {
+        width: 380px;
+    }
+    
+    span.list-text {
+        font-size: 50px;
     }
 }

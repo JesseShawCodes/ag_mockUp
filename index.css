@@ -312,8 +312,27 @@ section.copyright > span {
 
 /*Responsive Design Elements*/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
+    /*Section 1*/
+    .section1-part1 {
+        font-size: 40px;
+        padding: 0px;
+        text-align: center;
+    }
     
+    section.list1 {
+        height: auto;
+    }
+
+    span.list-text {
+        font-size: 50px;
+    }
+    body > main > div.section1 > section.section1-part-container > section {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     html, body {
         width: 100%;
         margin: 0px;
@@ -353,7 +372,7 @@ section.copyright > span {
     }
     
     span.list-text {
-        font-size: 50px;
+        font-size: 70px;
     }
     /*Section 1 - Part 3*/
     .section1-part3 {
@@ -371,6 +390,21 @@ section.copyright > span {
     body > div.section1 > section.section1-part-container > section > ul > li:before {
       content: '✓';
     }
+    
+    /**/
+    .parallax {
+        font-size: 40px;
+    }
+    
+    div.parallax-container > section > section > h2 {
+        width: 70%;
+        margin: 0px
+    }
+    div.parallax-container > section > section > p {
+        width: 70%;
+        margin: 10px 0px 0px;
+    }
+
     /*Last Section*/
     
 

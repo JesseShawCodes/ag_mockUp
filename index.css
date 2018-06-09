@@ -19,7 +19,7 @@ body {
 
 
 .hero-section {
-    background-image: url("/images/headerimages/HeadlineImage_1_1290.jpg");
+    background-image: url("images/headerimages/HeadlineImage_1_1290.jpg");
     height: 591px;
     background-repeat: no-repeat;
     background-color: black;

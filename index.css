@@ -313,12 +313,14 @@ section.copyright > span {
 /*Responsive Design Elements*/
 
 @media only screen and (max-width: 900px) {
-    html {
-        background-color: blue;
+    html, body {
         width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
     }
-    body {
-        overflow: scroll;
+    html {
+        background-color: pink;
     }
     /*Hero Section*/
 
@@ -349,7 +351,7 @@ section.copyright > span {
         width: 80%;
     }
     span.list-text {
-        font-size: 200px;
+        font-size: 100px;
     }
     /*Section 1 - Part 3*/
     .section1-part3 {

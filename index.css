@@ -3,70 +3,109 @@
 }
 
 html {
-    background-color: white;
+    background-color: #000;
     color: white;
+    display: grid;
 }
 
 body {
-    width: 80%;
+    width: 1290px;
     margin: 0px auto;
     font-size: 20px;
+    display: grid;
 }
 
 /*Hero Section 1*/
 
 
 .hero-section {
-    background-image: url("https://d13p2xj50zkyqm.cloudfront.net/promos/health/GLN/masterswitch_chocolateRL_ihtml_0317/HeadlineImage_1.jpg");
-    background-size: contain;
+    background-image: url("/images/headerimages/HeadlineImage_1_1290.jpg");
+    height: 591px;
     background-repeat: no-repeat;
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero-text {
     color: white;
     font: open sans bold;
     text-align: center;
+    text-transform: uppercase;
+}
+
+div.hero-section > h1:nth-child(1) {
+    position: a
 }
 
 .hero-text > span {
     display: inline-block;
-    background: linear-gradient(-90deg, white, #d4b8a2, white);
+    background: linear-gradient(-90deg, rgba(0,0,0, 0.05), white, rgba(0,0,0, 0.01));
+}
+
+div.hero-section > section > span > h1 > strong {
+    position: relative;
+    bottom: 30px;
 }
 
 .red-heading {
     color: red;
     /*background-color: white;*/
     width: 100%;
+    height: 134px;
+    font-size: 46px;
 }
+
+div.hero-section > section > h1:nth-child(3) > span {
+    display: inherit;
+}
+
+
 
 /**/
 
 .section1-part1 {
     background-color: white;
     color: black;
+    padding: 30px;
 }
 
 section.list1 {
     background: linear-gradient(-90deg, white, #d4b8a2, white);
     text-align: center;
+    height: 430px;
 }
 
-body > div.section1 > section.list1 > ul > li {
+.img-list {
+    padding: 60px 0px 60px 0px
+}
+
+div.section1 > section.list1 > ul > li {
     display: inline-block;
 }
+
+div.section1 > section.list1 > ul > li > img {
+    width: 280px;
+    margin: 0 42px 0 42px;
+}
+
 
 span.list-text {
     display: -webkit-box;
     text-align: -webkit-center;
     color: #4e381f;
+    font-size: 30px;
 }
 
 /*Section 1*/
 
+.section1 {
+    background: white;
+}
+
 .section1-part3 {
     background-color: white;
     color: black;
+    padding: 30px;
 }
 
 .section1-list {
@@ -81,33 +120,40 @@ body > div.section1 > section:nth-child(3) > ul > li:before {
 
 .parallax {
     background-color: green;
-    background-image: url('/images/parallaximages/ParallaxOne_5.jpg')
+    height: 573px;
+    background-image: url('/images/parallaximages/ParallaxOne_5_1290.jpg');
+    padding: 30px
 }
 
 
 
 /*Brown Bar*/
 
+.brown-bar-container {
+    background-color: white;
+}
+
 .brown-bar {
     background-color: #3d1c0f;
-    height: 300px;
+    min-height: 340px;
     width: 80%;
 }
 
 div.brown-bar > img {
     float: left;
-    width: 30%;
+    width: 50%;
 }
 
 .brown-bar-text {
     float: right;
-    width: 60%;
+    width: 50%;
+    margin-top: 50px
 }
 
 /*switch section*/
 
 .switch-section {
-    padding: 20px;
+    padding: 30px;
     background-color: white;
     color: black;
 }
@@ -117,37 +163,71 @@ div.brown-bar > img {
 .red-section {
     background-color: red;
     background-image: url(images/redsectionimages/Gears_15.jpg);
+    padding: 30px;
+    height: 540px;
 }
 
 .red-section-heading {
     color: yellow;
 }
 
+h1.red-section-heading {
+    margin-top: 55px;
+}
+
 /*Last Section*/
+
+.last-section-container {
+    background-color: white;
+    background-image: url('images/lastsectionimages/TransparentArrowBkgd.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.transparent-layer {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(0,0,0,0.1));
+}
 
 .last-section {
     background-color: white;
-    background-image: url('images/lastsectionimages/TransparentArrowBkgd.jpg');
-    color: white;
+    color: black;
+    padding: 30px;
+    margin: 0px 130px;
 }
+
 
 .last-section-image-1 {
     width: 100%;
+}
+
+.last-section-text1 {
+    width: 50%
+}
+
+.delivery-image-section {
+    width: auto;
+    float: right;
+}
+
+section.last-section-main-text > section.delivery-image-section > img {
+    width: 500px;
 }
 
 /*Green Section*/
 
 .green-order {
     background-color: green;
+    margin: 0px auto;
+    text-align: center;
 }
 
 /*Add to Cart*/
 
 .cart-button {
     margin: 0px auto;
-    width: 50%;
+    width: 35%;
     text-align: center;
-    background-color: orange
+    background-color: #e67e25;
 }
 
 .product-label {

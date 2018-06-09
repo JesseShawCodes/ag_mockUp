@@ -315,6 +315,7 @@ section.copyright > span {
 @media only screen and (max-width: 900px) {
     html {
         background-color: blue;
+        width: 100%;
     }
     body {
         overflow: scroll;
@@ -351,4 +352,35 @@ section.copyright > span {
     span.list-text {
         font-size: 50px;
     }
+    /*Section 1 - Part 3*/
+    .section1-part3 {
+        background-color: white;
+        color: black;
+        width: 970px;
+        margin: 0px auto;
+        font-size: 40px;
+    }
+
+    .section1-list {
+      list-style: none;
+    }
+
+    body > div.section1 > section.section1-part-container > section > ul > li:before {
+      content: '✓';
+    }
+    /*Last Section*/
+    
+
+    .last-section-container1 {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .arrow-image {
+        margin: 0px auto;
+        width: 100%;
+    }
+    section.arrow-image > img {
+        width: 100%;
+    }
+
 }

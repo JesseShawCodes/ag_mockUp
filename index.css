@@ -66,7 +66,9 @@ div.hero-section > section > h1:nth-child(3) > span {
 .section1-part1 {
     background-color: white;
     color: black;
-    padding: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 970px;
+    margin: 0px auto;
 }
 
 section.list1 {
@@ -105,22 +107,24 @@ span.list-text {
 .section1-part3 {
     background-color: white;
     color: black;
-    padding: 30px;
+    width: 970px;
+    margin: 0px auto;
 }
 
 .section1-list {
   list-style: none;
 }
 
-body > div.section1 > section:nth-child(3) > ul > li:before {
+body > div.section1 > section.section1-part-container > section > ul > li:before {
   content: '✓';
 }
+
 
 /*parallax*/
 
 .parallax {
     background-color: green;
-    height: 573px;
+    height: 350px;
     background-image: url('/images/parallaximages/ParallaxOne_5_1290.jpg');
     padding: 30px
 }
@@ -131,17 +135,24 @@ body > div.section1 > section:nth-child(3) > ul > li:before {
 
 .brown-bar-container {
     background-color: white;
+    height: 450px;
 }
 
 .brown-bar {
     background-color: #3d1c0f;
-    min-height: 340px;
-    width: 80%;
+    height: 340px;
+    margin: 45px 0px 45px 0px;
+    width: 1100px;
 }
 
 div.brown-bar > img {
     float: left;
-    width: 50%;
+    width: 410px;
+}
+
+img.doctor-image {
+    position: relative;
+    bottom: 40px;
 }
 
 .brown-bar-text {
@@ -152,10 +163,15 @@ div.brown-bar > img {
 
 /*switch section*/
 
+.switch-section-container {
+    background-color: white;
+}
+
 .switch-section {
-    padding: 30px;
     background-color: white;
     color: black;
+    width: 970px;
+    margin: 0px auto;
 }
 
 /*red section*/
@@ -165,6 +181,12 @@ div.brown-bar > img {
     background-image: url(images/redsectionimages/Gears_15.jpg);
     padding: 30px;
     height: 540px;
+}
+
+section.redsection-text {
+    /* margin: 0px 100px 0px 100px; */
+    width: 970px;
+    margin: 0px auto;
 }
 
 .red-section-heading {
@@ -185,13 +207,13 @@ h1.red-section-heading {
 }
 
 .transparent-layer {
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(0,0,0,0.1));
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255, 0.1), rgba(0,0,0,0.1));
 }
 
-.last-section {
+.last-section-container1 {
     background-color: white;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
     color: black;
-    padding: 30px;
     margin: 0px 130px;
 }
 
@@ -200,8 +222,9 @@ h1.red-section-heading {
     width: 100%;
 }
 
-.last-section-text1 {
-    width: 50%
+.last-section-text1, .last-section-main-text {
+    width: 100%;
+    padding: 30px;
 }
 
 .delivery-image-section {
@@ -210,15 +233,25 @@ h1.red-section-heading {
 }
 
 section.last-section-main-text > section.delivery-image-section > img {
-    width: 500px;
+    width: 280px;
+}
+
+.arrow-image {
+    margin: 0px auto;
+    width: 80%;
 }
 
 /*Green Section*/
 
 .green-order {
-    background-color: green;
+    background-color: #485f42;
     margin: 0px auto;
     text-align: center;
+    height: 320px;
+}
+
+.green-banner-image {
+    width: 100%;
 }
 
 /*Add to Cart*/
@@ -228,6 +261,7 @@ section.last-section-main-text > section.delivery-image-section > img {
     width: 35%;
     text-align: center;
     background-color: #e67e25;
+    border: 14px solid white
 }
 
 .product-label {

@@ -317,6 +317,19 @@ section.copyright > span {
         background-color: blue;
     }
     body {
-        width: 100%;
+        overflow: scroll;
+    }
+    /*Hero Section*/
+    .hero-section {
+        
+    }
+
+    .hero-text {
+        font-size: 38px;
+    }
+
+    .hero-text > span {
+        display: inline-block;
+        background: linear-gradient(-90deg, rgba(0,0,0, 0.05),rgba(255, 255, 255, 0.9), white, rgba(0,0,0, 0.01));
     }
 }

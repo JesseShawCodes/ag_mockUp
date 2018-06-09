@@ -39,7 +39,7 @@ div.hero-section > h1:nth-child(1) {
 
 .hero-text > span {
     display: inline-block;
-    background: linear-gradient(-90deg, rgba(0,0,0, 0.05), white, rgba(0,0,0, 0.01));
+    background: linear-gradient(-90deg, rgba(0,0,0, 0.05),rgba(255, 255, 255, 0.9), white, rgba(0,0,0, 0.01));
 }
 
 div.hero-section > section > span > h1 > strong {
@@ -69,6 +69,7 @@ div.hero-section > section > h1:nth-child(3) > span {
     padding: 20px 0px 20px 0px;
     width: 970px;
     margin: 0px auto;
+    font-size: 26px;
 }
 
 section.list1 {
@@ -109,6 +110,7 @@ span.list-text {
     color: black;
     width: 970px;
     margin: 0px auto;
+    font-size: 26px;
 }
 
 .section1-list {
@@ -125,11 +127,9 @@ body > div.section1 > section.section1-part-container > section > ul > li:before
 .parallax {
     background-color: green;
     height: 350px;
-    background-image: url('/images/parallaximages/ParallaxOne_5_1290.jpg');
+    background-image: url(images/parallaximages/ParallaxOne_5_1290.jpg);
     padding: 30px
 }
-
-
 
 /*Brown Bar*/
 
@@ -158,8 +158,10 @@ img.doctor-image {
 .brown-bar-text {
     float: right;
     width: 50%;
-    margin-top: 50px
+    font-size: 26px;
+    margin: 44px;
 }
+
 
 /*switch section*/
 
@@ -190,7 +192,7 @@ section.redsection-text {
 }
 
 .red-section-heading {
-    color: yellow;
+    color: #FFCD2F;
 }
 
 h1.red-section-heading {
@@ -260,7 +262,7 @@ section.last-section-main-text > section.delivery-image-section > img {
     margin: 0px auto;
     width: 35%;
     text-align: center;
-    background-color: #e67e25;
+    background-color: #E47E25;
     border: 14px solid white
 }
 
@@ -269,5 +271,5 @@ section.last-section-main-text > section.delivery-image-section > img {
 }
 
 .product-label a {
-    color: green;
+    color: #2BB673;
 }

@@ -68,7 +68,7 @@ div.hero-section > section > h1:nth-child(3) > span {
     background-color: white;
     color: black;
     padding: 20px 0px 20px 0px;
-    width: 970px;
+    width: 80%;
     margin: 0px auto;
     font-size: 26px;
 }
@@ -88,7 +88,7 @@ div.section1 > section.list1 > ul > li {
 }
 
 div.section1 > section.list1 > ul > li > img {
-    width: 280px;
+    width: 80%;
     margin: 0 42px 0 42px;
 }
 
@@ -139,7 +139,7 @@ span.list-text {
   list-style: none;
 }
 
-body > div.section1 > section.section1-part-container > section > ul > li:before {
+section.section1-part-container > section > ul > li:before {
   content: '✓';
 }
 
@@ -313,9 +313,12 @@ section.copyright > span {
 /*Responsive Design Elements*/
 
 @media only screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+    }
     /*Section 1*/
     .section1-part1 {
-        font-size: 40px;
+        font-size: 50px;
         padding: 0px;
         text-align: center;
     }
@@ -332,7 +335,7 @@ section.copyright > span {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     html, body {
         /*
         width: 100%;
@@ -370,7 +373,7 @@ section.copyright > span {
     }
 
     div.section1 > section.list1 > ul > li > img {
-        width: 80%;
+        width: 60%;
     }
     
     span.list-text {
@@ -383,10 +386,6 @@ section.copyright > span {
         width: 970px;
         margin: 0px auto;
         font-size: 40px;
-    }
-
-    .section1-list {
-      list-style: none;
     }
 
     body > div.section1 > section.section1-part-container > section > ul > li:before {

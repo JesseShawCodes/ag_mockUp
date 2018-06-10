@@ -334,6 +334,9 @@ section.copyright > span {
 
 @media only screen and (max-width: 400px) {
     html, body {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
         overflow-x: hidden; 
     }
     body {

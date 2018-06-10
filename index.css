@@ -436,7 +436,15 @@ section.copyright > span {
     }
     /*Last Section*/
     
-    
+    .last-section-main-text, .last-section-text1 {
+        font-size: 46px;
+        padding: 30px 15px;
+    }
+
+    h1.last-section-first-heading {
+        font-size: 56px;
+        margin: 20px 0px;
+    }
     .last-section-container1 {
         width: 100%;
         margin: 0px auto;

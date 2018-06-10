@@ -405,11 +405,38 @@ section.copyright > span {
     div.parallax-container > section > section > p {
         width: 70%;
         margin: 10px 0px 0px;
+        font-size: 50px;
     }
-
+    /*Brown Bar*/
+    
+    .brown-bar-container {
+        height: 700px;
+    }
+    .brown-bar {
+        height: 700px;
+        width: 100%;
+    }
+    div.brown-bar-container > section > img {
+        position: inherit;
+        margin: 100px 0px 0px 80px;
+    }
+    .brown-bar-text {
+        font-size: 46px;
+    }
+    /*Switch Section*/
+    div.switch-section-container {
+        font-size: 46px;
+    }
+    /*Red Section*/
+    div.red-section {
+        height: 1300px;
+    }
+    div.red-section > section {
+        font-size: 46px;
+    }
     /*Last Section*/
     
-
+    
     .last-section-container1 {
         width: 100%;
         margin: 0px auto;

@@ -260,8 +260,8 @@ img.green-banner-img {
 
 .cart-button {
     width: 280px;
-    height: 70px;
-    background-color: orange;
+    height: 100px;
+    background-color: #d4711c;
     border: 4px solid white;
 }
 
@@ -272,15 +272,20 @@ img.green-banner-img {
 
 .button-text1 {
     color: #fcfcf8;
-    font-size: 2.2em;
+    font-size: 3.2em;
     text-transform: uppercase
 }
 
 .button-text2 {
     text-transform: uppercase;
+    color: black;
 }
 
 /**/
+
+section.product-label {
+    margin-top: 14px;
+}
 
 section.product-label > a, section.product-label > a:visited, section.product-label > a {
     color: #2BB673;

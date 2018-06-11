@@ -368,6 +368,9 @@ section.copyright > p {
         width: 80%;
         margin: 0px auto;
     }
+    button.cart-button {
+        width: 580px;
+    }
     
 } 
 

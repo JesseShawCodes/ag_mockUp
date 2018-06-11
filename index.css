@@ -415,11 +415,7 @@ section.copyright > p {
         width: 40%;
         display: inline-block;
     }
-
-    img.doctor-image {
-        width: 90%;
-    }
-
+    
     section.brown-bar-text {
         width: 50%;
         margin: 0px 0px;
@@ -432,6 +428,13 @@ section.copyright > p {
         position: relative;
         top: 10px;
     }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    div.brown-bar-container {
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -439,6 +442,7 @@ section.copyright > p {
 
     section.brown-bar {
         width: 100%;
+        height: auto;
     }
 
     section.doctor-image-section {
@@ -453,12 +457,18 @@ section.copyright > p {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .brown-bar {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 800px)  {
     section.white-text1, span.white-text2, span.white-text3 {
         color: white;
         font-size: 0.6em;
     }
-
+    
     section.red-heading-container {
         font-size: 0.8em;
         height: 100px;

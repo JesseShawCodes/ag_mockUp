@@ -207,7 +207,7 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
 }
 
 .transparent-layer {
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255, 0.1), rgba(0,0,0,0.1));
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255, 0.1), rgba(255,255,255,0.01));
 }
 
 .last-section-container1 {
@@ -226,6 +226,10 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
     width: 90%;
 }
 
+.delivery-image-section {
+    text-align: center;
+}
+
 .green-banner {
     background-image: url('images/lastsectionimages/greenbanner/banner_600.jpg');
     background-size: cover;
@@ -238,4 +242,52 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
 
 .arrow-image > img {
     width: 100%;
+}
+
+.footer {
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    margin: 10px 0px 0px;
+}
+
+.cart-button {
+    width: 380px;
+    margin: 0 0 20px;
+    height: 100px;
+}
+
+.cart-button > button {
+    background-color: #E47E25;
+    border: 0xp;
+    width: 100%;
+
+}
+
+.cart-text1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: 0px 20px
+}
+
+.cart-text2 {
+    color: black;
+    margin: 0px 20px;
+    font-size: 0.91em;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+section.product-label > a, section.product-label > a:visited, section.product-label > a {
+    color: #2BB673;
+    background: none;
+}
+
+section.copyright {
+    margin-top: 20px;
+}
+
+section.copyright > p {
+    font-size: 0.6em;
+    margin: 0px auto;
 }

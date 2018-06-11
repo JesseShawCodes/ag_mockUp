@@ -397,7 +397,7 @@ section.copyright > p {
     }
 
     ul.img-list {
-        display: inline-flex;
+        display: inline;
     }
 
     section.brown-bar {

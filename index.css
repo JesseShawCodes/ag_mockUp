@@ -25,25 +25,33 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     font-size: 1.4em;
-}
-span:before {
-    content: "\A";
-    white-space: pre;
+    text-transform: uppercase;
 }
 
-span.white-text {
+section.white-text1 {
+    padding-top: 20px
+}
+
+section.white-text1, span.white-text2, span.white-text3 {
     color: white;
+}
+
+section.white-text-lower-container {
+    display: inline-grid;
 }
 
 .red-heading-container {
     color: red;
     background: linear-gradient(-90deg, rgba(0,0,0, 0.05),rgba(255, 255, 255, 0.9), white, rgba(0,0,0, 0.01));
-    width: 100;
+    width: 100%;
+    font-size: 1.2em;
+    height: 110px;
+    text-transform: uppercase;
 }
 
-.white-text-lower-container {
-
-
+.red-heading{
+    position: relative;
+    top: 30px
 }
 
 .white-text-lower-container > span {
@@ -68,6 +76,10 @@ section.list1 {
     text-align: center;
 }
 
+section.list1 > ul {
+    padding: 30px 0px;
+}
+
 section.list1 > ul > li {
     display: inline-block;
 }
@@ -80,7 +92,7 @@ span.list-text {
     display: -webkit-box;
     text-align: -webkit-center;
     color: #4e381f;
-    font-size: 30px;
+    font-size: 1.8em;
 }
 
 .section1-part3 {
@@ -198,7 +210,7 @@ span.list-text {
     font-size: 1.6em;
 }
 
-.last-section-container > div p, h1 {
+.last-section-container > div p, .last-section-container>h1 {
     margin: 20px auto;
 }
 
@@ -226,6 +238,10 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
     width: 90%;
 }
 
+h1.last-section-first-heading {
+    font-size: 1.6em;
+}
+
 .delivery-image-section {
     text-align: center;
 }
@@ -233,11 +249,39 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
 .green-banner {
     background-image: url('images/lastsectionimages/greenbanner/banner_600.jpg');
     background-size: cover;
-    height: 160px;
+    height: 240px;
 }
 
 .green-banner-heading {
     height: auto;
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+section.green-banner > h2 {
+    position: relative;
+    top: 30px;
+}
+
+section.green-banner > h2 > span {
+    font-size: 0.6em;
+    margin: 0px auto;
+}
+
+section.green-banner > h2 > span:nth-child(1) {
+    color: #f4f5f4;
+    font-size: 0.6em;
+}
+
+section.green-banner > h2 > span:nth-child(2) {
+    color: #f9d83f;
+    font-size: 0.6em;
+}
+
+section.green-banner > h2 > span:nth-child(3) {
+    color: #fcfffb;
+    font-size: 0.6em;
 }
 
 .arrow-image > img {
@@ -251,32 +295,31 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
     margin: 10px 0px 0px;
 }
 
+/**Card Button*/
+
 .cart-button {
-    width: 380px;
-    margin: 0 0 20px;
-    height: 100px;
+    width: 280px;
+    height: 70px;
+    background-color: orange;
+    border: 4px solid white;
 }
 
-.cart-button > button {
-    background-color: #E47E25;
-    border: 0xp;
-    width: 100%;
-
+.button-text {
+    width: 90%;
+    margin: 0px auto;
 }
 
-.cart-text1 {
+.button-text1 {
+    color: #fcfcf8;
+    font-size: 2.2em;
+    text-transform: uppercase
+}
+
+.button-text2 {
     text-transform: uppercase;
-    font-size: 3em;
-    margin: 0px 20px
 }
 
-.cart-text2 {
-    color: black;
-    margin: 0px 20px;
-    font-size: 0.91em;
-    line-height: 20px;
-    font-weight: 700;
-}
+/**/
 
 section.product-label > a, section.product-label > a:visited, section.product-label > a {
     color: #2BB673;
@@ -290,4 +333,153 @@ section.copyright {
 section.copyright > p {
     font-size: 0.6em;
     margin: 0px auto;
+}
+
+@media only screen and (min-width: 1000px)  {
+    body {
+        width: 80%;
+        margin: 0px auto;
+    }
+    /*Hero Section*/
+    .hero-section {
+        background-image: url('images/headerimages/HeadlineImage_1_1290.jpg');
+        background-position: bottom;
+        height: 530px;
+    }
+    section.hero-text {
+        padding: 50px;
+        /* text-transform: uppercase; */
+        font-size: 1.2em;
+    }
+
+    .parallax {
+        height: 373px;
+        /* margin: 20px; */
+    }
+
+    h2.parallax-heading {
+        font-size: 3.3em;
+        width: 70%;
+        /* margin: 20px; */
+    }
+
+    section.parallax-span {
+        font-size: 1.9em;
+        width: 100%;
+    }
+
+
+    section.parallax-text {
+        /* position: relative; */
+        padding: 80px 0px;
+    }
+
+    .brown-bar-container {
+        background-color: white;
+        margin-bottom: 113px;
+    }
+
+    section.brown-bar {
+        width: 80%;
+        height: 300px;
+        margin-top: 60px;
+    }
+
+    section.doctor-image-section {
+        width: 30%;
+        float: left;
+        position: relative;
+        bottom: 55px;
+    }
+
+    section.brown-bar-text {width: 50%;position: relative;left: 200px;line-height: 40px;margin-top: 20px;}
+
+
+    img.delivery-man-image {
+        float: right;
+    }
+    /*Last Section*/
+    section.last-section-container1 {
+        width: 80%;
+    }
+
+    section.arrow-image {
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+} 
+
+
+@media only screen and (max-width: 1000px) and (min-width: 500px)  {
+    .section1-part1 {
+        font-size: 1.6em;
+        width: 90%;
+        margin: 20px auto;
+        background-color: pink;
+    }
+    section.parallax {
+        height: 400px;
+    }
+
+    h2.parallax-heading {
+        width: 80%;
+        font-size: 2.2em;
+    }
+
+    section.parallax-span {
+        font-size: 1.6em;
+        position: relative;
+        top: 40px;
+    }
+
+    ul.img-list {
+        display: inline-flex;
+    }
+
+    section.brown-bar {
+        width: 80%;
+    }
+
+    section.doctor-image-section {
+        width: 40%;
+        display: inline-block;
+    }
+
+    img.doctor-image {
+        width: 90%;
+    }
+
+    section.brown-bar-text {
+        width: 50%;
+        margin: 0px 0px;
+        display: inline-block;
+    }
+
+    section.delivery-image-section {
+        display: inline-flex;
+        float: right;
+        position: relative;
+        top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1300px)  {
+
+    section.brown-bar {
+        height: auto;
+        width: 100%;
+    }
+
+    section.doctor-image-section {
+        float: none;
+        width: 100%;
+    }
+
+    section.brown-bar-text {
+        width: 90%;
+        left: 0px;
+        margin: 0px auto;
+    }
 }

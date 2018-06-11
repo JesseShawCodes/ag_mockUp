@@ -233,7 +233,7 @@ section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
 }
 
 h1.last-section-first-heading {
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 
 .delivery-image-section {
@@ -375,7 +375,7 @@ section.copyright > p {
 } 
 
 
-@media only screen and (max-width: 1000px) and (min-width: 500px)  {
+@media only screen and (max-width: 1000px) and (min-width: 400px)  {
     .section1-part1 {
         font-size: 1.6em;
         width: 90%;
@@ -447,10 +447,42 @@ section.copyright > p {
 }
 
 @media only screen and (max-width: 800px)  {
-
     .parallax {
         height: 300px;
         background-image: url('images/parallaximages/ParallaxOne_5_800.jpg');
         background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 400px)  {
+    section.white-text1, span.white-text2, span.white-text3 {
+        color: white;
+        font-size: 0.6em;
+    }
+
+    section.red-heading-container {
+        font-size: 0.8em;
+        height: 100px;
+    }
+
+    img.doctor-image {
+        width: 100%;
+    }
+    .parallax {
+        height: auto;
+        background-image: url('images/parallaximages/ParallaxOne_5_400.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h2.parallax-heading {
+        width: 100%;
+        background-color: rgba(0,0,0,0.6);
+        font-size: 1.1em;
+    }
+
+    section.parallax-span {
+        width: 80%;
+        background-color: rgba(0,0,0,0.5);
+        margin-top: 20px;
     }
 }

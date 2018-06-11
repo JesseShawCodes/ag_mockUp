@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+}
+
 html, body {
     background-color: white;
     overflow-x: hidden; 
@@ -48,6 +53,9 @@ span.white-text {
 /*Section 1*/
 .section1-part1 {
     font-size: 1.6em;
+    width: 90%;
+    margin: 20px auto;
+
 }
 
 .list1 {
@@ -83,8 +91,13 @@ span.list-text {
     font-size: 1.6em;
 }
 
+.section1-part3 > p {
+    margin: 20px;
+}
+
 .section1-list {
     list-style: none;
+    margin: 20px;
 }
 
 .section1-list > li:before {
@@ -132,14 +145,97 @@ span.list-text {
 
 }
 
+.brown-bar-text > p {
+    margin: 20px auto;
+}
+
 /*Switch Section*/
 
 .switch-section-container {
     font-size: 1.6em;
 }
 
+.switch-section-container > div > p {
+    margin: 20px auto;
+}
+
 .switch-section {
-    width: 90%;;
+    width: 90%;
     margin: 0px auto;
 }
 
+/*Red Section*/
+
+.red-section {
+    background-image: url(images/redsectionimages/Gears_15.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.redsection-text {
+    /* margin: 0px 100px 0px 100px; */
+    width: 90%;;
+    margin: 0px auto;
+    font-size: 1.6em;
+    padding: 20px 0px;
+}
+
+.red-section-heading {
+    color: #FFCD2F;
+}
+
+.redsection-text > p {
+    margin: 20px auto;
+}
+
+/*Last Section*/
+
+.last-section-container {
+    background-image: url(images/lastsectionimages/TransparentArrowBkgd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 1.6em;
+}
+
+.last-section-container > div p, h1 {
+    margin: 20px auto;
+}
+
+section.last-section-container1 > section:nth-child(4) > p:nth-child(8) {
+    margin: 20px auto 0px;
+}
+
+.transparent-layer {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255, 0.1), rgba(0,0,0,0.1));
+}
+
+.last-section-container1 {
+    background-color: white;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+    color: black;
+    margin: 0px auto;
+}
+
+.last-section-image-1 {
+    width: 100%;
+}
+
+.last-section-main-text {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.green-banner {
+    background-image: url('images/lastsectionimages/greenbanner/banner_600.jpg');
+    background-size: cover;
+    height: 160px;
+}
+
+.green-banner-heading {
+    height: auto;
+}
+
+.arrow-image > img {
+    width: 100%;
+}

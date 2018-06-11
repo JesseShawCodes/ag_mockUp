@@ -17,13 +17,6 @@ body {
     font-style: italic;
 }
 
-
-/*Accessibility*/
-
-section.white-text1, span.white-text2, span.white-text3, section.product-label > a, section.product-label > a:visited {
-    background-color: rgba(0,0,0,0.4)
-}
-
 /*Hero Section*/
 .hero-section {
     background-image: url('images/headerimages/HeadlineImage_1_1290.jpg');

@@ -62,11 +62,6 @@ section.white-text-lower-container {
 
 }
 
-.list1 {
-    background-color: pink;
-}
-
-
 section.list1 {
     background: linear-gradient(-90deg, white, #d4b8a2, white);
     text-align: center;
@@ -242,43 +237,11 @@ h1.last-section-first-heading {
     text-align: center;
 }
 
-.green-banner {
-    background-image: url('images/lastsectionimages/greenbanner/banner_600.jpg');
-    background-size: cover;
-    height: 240px;
+img.green-banner-img {
+    width: 100%;
 }
 
-.green-banner-heading {
-    height: auto;
-    width: 30%;
-    margin: 0px auto;
-    text-align: center;
-}
 
-section.green-banner > h2 {
-    position: relative;
-    top: 30px;
-}
-
-section.green-banner > h2 > span {
-    font-size: 0.6em;
-    margin: 0px auto;
-}
-
-section.green-banner > h2 > span:nth-child(1) {
-    color: #f4f5f4;
-    font-size: 0.6em;
-}
-
-section.green-banner > h2 > span:nth-child(2) {
-    color: #f9d83f;
-    font-size: 0.6em;
-}
-
-section.green-banner > h2 > span:nth-child(3) {
-    color: #fcfffb;
-    font-size: 0.6em;
-}
 
 .arrow-image > img {
     width: 100%;
@@ -411,7 +374,6 @@ section.copyright > p {
         font-size: 1.6em;
         width: 90%;
         margin: 20px auto;
-        background-color: pink;
     }
     section.parallax {
         height: 400px;
@@ -475,6 +437,6 @@ section.copyright > p {
     section.brown-bar-text {
         width: 90%;
         left: 0px;
-        margin: 0px auto;
+        margin: 0px 26.77777px;
     }
 }

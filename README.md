@@ -2,8 +2,8 @@
 
 ## Google Speed Test
 
-![Mobile Speed Test]('/images/referenceImages/Mobile_speed.png')
-![Desktop Speed Test]('/images/referenceImages/Desktop_Speed.png')
+![Mobile Speed Test](/images/referenceImages/Mobile_speed.png)
+![Desktop Speed Test](/images/referenceImages/Desktop_Speed.png)
 
 ## Meta Tags
 

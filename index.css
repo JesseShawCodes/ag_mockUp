@@ -10,7 +10,7 @@ html, body {
 
 body {
     width: 100%;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .ital {
@@ -141,6 +141,8 @@ span.list-text {
 .doctor-image-section {
     text-align: center;
 }
+
+
 
 .brown-bar-text {
     width: 90%;
@@ -309,12 +311,6 @@ section.copyright > p {
         padding: 100px 0px 0px;
         font-size: 1.2em;
     }
-
-    .parallax {
-        height: 373px;
-        /* margin: 20px; */
-    }
-
     h2.parallax-heading {
         font-size: 3.3em;
         width: 70%;
@@ -349,6 +345,7 @@ section.copyright > p {
         position: relative;
         bottom: 55px;
     }
+
 
     section.brown-bar-text {width: 50%;position: relative;left: 200px;line-height: 40px;margin-top: 20px;}
 
@@ -425,7 +422,6 @@ section.copyright > p {
 @media only screen and (max-width: 1300px)  {
 
     section.brown-bar {
-        height: auto;
         width: 100%;
     }
 
@@ -438,5 +434,14 @@ section.copyright > p {
         width: 90%;
         left: 0px;
         margin: 0px 26.77777px;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+
+    .parallax {
+        height: 300px;
+        background-image: url('images/parallaximages/ParallaxOne_5_800.jpg');
+        background-size: cover;
     }
 }
